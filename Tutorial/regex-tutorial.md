@@ -1,6 +1,5 @@
-# Title (replace with your title)
-
-Introductory paragraph (replace this with your text)
+# Basic Regex
+In the most basic beginner formant, this tutorial should be ale to teach you reader/user how to format basic regualar expressions.
 
 
 
@@ -71,13 +70,14 @@ Character classes are similar to bracket expressions but provide shorthand notat
 
 The OR operator (|) allows you to specify multiple alternative patterns. It matches either the pattern on its left or the pattern on its right.
 In this specific example the or opoerator is not being used. 
-
+An example of this would be `(color|colour)` depending on the spelling it will match both options. 
 
 
 ### Flags
 
  Flags are used to modify the behavior of a regex pattern. Common flags include "g" (global), which allows multiple matches, and "i" (case-insensitive), which ignores case when matching.
  In this specific example the or opoerator is not being used.
+ For example `/hello/i` would match with 'hello', 'Hello', 'HELLO'.
 
 
 ### Character Escapes
